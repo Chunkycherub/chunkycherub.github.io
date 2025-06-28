@@ -1,0 +1,56 @@
+body {
+  background-color: #fdafb0;
+  margin: auto;
+  max-width: 1200px;
+  padding: 4vw;
+}
+
+header {
+  width: 100%;
+  background-color: #FCFFFD;
+  border: 1px solid #e7eae8;
+  border-radius: 200px;
+  margin-bottom: 5vw;
+}
+header .row {
+  align-items: center;
+  padding-left: 20px;
+}
+
+#logo {
+  text-decoration: none;
+  background-color: #fdafb0;
+  color: black;
+  font-weight: bold;
+  width: 10vw;
+  height: 10vw;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 200px;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  width: 50%;
+}
